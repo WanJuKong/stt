@@ -15,7 +15,7 @@ function getMicData(){
 			mediaRecorder.stop();
 		}, 5000);
 	}).catch(function(error){
-		alert('mute');
+		alert(error);
 	});
 }
 
